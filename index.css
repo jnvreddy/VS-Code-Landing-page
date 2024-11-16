@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+:root {
+    --font-family:-apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen-Sans,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
+    --gray-color:#9ba3b4;
+    --bluelink-color:#4daafc;
+}
+
+
+body{
+    background-color: #0D1117;
+}
+
+header{
+    position:sticky;
+    width: auto;
+    height: fit-content;
+    display: flex;
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+    justify-content: space-between;
+}
+
+.hero{
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 15px 15px;
+    line-height: 20px;
+ 
+}
+
+.hero, span{
+    font-family:var(--font-family); 
+    letter-spacing: -0.2px;
+    font-weight: 600;
+    font-size: 20px;   
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.head1{
+    display: flex;
+    justify-items: center;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    line-height: 58px;
+    gap: 13px;
+    font-family:var(--font-family);
+}
+
+.navlink {
+    text-decoration: none;
+    color: #aaa;
+    padding-left: 11px;
+    font-weight: 500;
+    transition: color 0.3s ease-in;
+}
+
+.navlink:hover {
+    color: #e3e3e3;
+}
+
+
+
+
+.head2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 13px 5px 13px;
+    border-radius: 4px;
+    color: var(--gray-color);
+    outline: none;
+    border:1.5px solid rgb(255, 255, 255,0.15);
+    background-color: transparent;
+    font-family:var(--font-family);
+}
+
+.search:focus{
+    border: 1.5px solid #0069b9;
+}
+
+.download{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #0078d4;
+    border: none;
+    font-family:var(--font-family);
+    border-radius: 4px;
+    color: #fff;
+}
+.download:hover {
+    background-color: #0069b9;
+}
+
+.banner{
+    padding:8px 0;
+}
+.message{
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--gray-color);
+    font-family: var(--font-family);
+    margin:8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.message a{
+    color:var(--bluelink-color) ;
+}
+
+
+.hero-content{
+    display: grid;
+    justify-content: center;
+    margin: 0 9rem;
+    
+}
+
+.hero-content h1{
+    font-size: 72px;
+    display: grid;
+    font-family: var(--font-family);
+    color: #fff;
+    justify-content: center;
+    margin: 8px 0;
+}
+    
+.hero-content .p1{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--gray-color);
+    font-family: var(--font-family);  
+    letter-spacing: -0.3px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-top{
+    padding: 16px 0;
+}
+
+.button-container{
+    display:flex;
+    justify-content: center;
+}
+
+.btn-container{
+    display: flex;
+    gap:10px;
+}
+
+
+
+.downloadbtn{
+    font-size: 1.1rem;
+    font-weight: 550;
+    padding: 10px 20px;
+    background-color: #0078d4;
+    border: 1px solid rgba(255, 255, 255, .08);
+    font-family: var(--font-family);
+    border-radius: 4px;
+    color: #fff;
+    cursor:pointer;
+}
+
+
+.downloadbtn:hover{
+    background-color: #0069b9;
+}
+
+.gitbutton{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e9eaeb;
+    text-decoration: none;
+    font-family: var(--font-family);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+
+.p2{
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    color:var(--gray-color);
+}
+
+.p2 a {
+    color: var(--bluelink-color);
+}
+
+.p3{
+    font-size: 10px;
+    font-family: var(--font-family);
+    margin: 8px 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    color:var(--gray-color);
+    padding: 5px 10px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.button-container:hover .p3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.p3 a{
+    text-decoration: underline;
+    color: var(--gray-color);
+}
+
+
+.hero-content img{
+    width:100%;
+    vertical-align: middle;
+}
+
