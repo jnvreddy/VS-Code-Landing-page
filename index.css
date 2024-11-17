@@ -256,4 +256,133 @@ header{
     width:100%;
     vertical-align: middle;
 }
+/*-------------------second section----------------------------------------------*/
+.content-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    margin: 0 9rem;
+}
 
+.left2{
+    width: 32%;
+    padding-right: 40px;
+}
+.right2{
+    width: 68%;
+    padding-left: 40px;
+}
+
+.cont-p{
+    font-size: 16px;
+        font-weight: 500;
+        font-family: var(--font-family);
+        color: var(--gray-color);
+        line-height: 160%;
+        margin:10px 0 ;
+}
+
+.cont-2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--gray-color);
+    line-height: 160%;
+    margin:20px 0;
+}
+
+.cont-a{
+    color: var(--bluelink-color);
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: underline;
+}
+
+.cont-2 a{
+    color: var(--bluelink-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+.top2{
+    padding-bottom:20px ;
+}
+
+.top2 h2{
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: #e9eaeb;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 150%;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: #e9eaeb;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 150%;
+    font-size: 30px;
+}
+
+
+.right2 img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+/*------section 3----------------------*/
+
+.content-3{
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    margin: 0 9rem;
+}
+
+.left3{
+    width: 32%;
+}
+
+.right-3{
+    width:68%;
+    display: flex;
+    padding-left:80px;
+    justify-content: space-between;
+}
+
+.right3-a, .right3-b, .right3-c{
+    display: grid;
+    width:33%;
+    
+}
+
+
+.cont3-a{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.cont3-a p{
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: #e9eaeb;
+}
+
+.left3 p{
+    font-size: 16px;
+        font-weight: 500;
+        font-family: var(--font-family);
+        color: var(--gray-color);
+        line-height: 160%;
+        margin: 15px 0;
+}
